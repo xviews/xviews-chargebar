@@ -24,7 +24,7 @@
 
 ---
 
-Wie voll ist die Maus noch? Lädt das Headset überhaupt? Hält der Akku bis morgen? Bisher hieß das: iCUE öffnen und durchklicken. **ChargeBar zeigt es dauerhaft neben der Uhr:** Das kostenlose Windows-Tool liest den Akkustand über das offizielle iCUE SDK und rechnet aus, wie lange er noch reicht.
+iCUE zeigt den Akku nur als kleines Batteriesymbol im Infobereich. Wie viel Prozent sind es genau? Lädt das Headset noch? Hält die Maus bis morgen? **ChargeBar zeigt es dauerhaft neben der Uhr:** die genaue Prozentzahl für jedes Gerät, dazu die Restzeit aus eigener Messung. Das kostenlose Windows-Tool liest den Akkustand über das offizielle iCUE SDK.
 
 <p align="center">
   <img src="bilder/1-uebersicht.png" width="760" alt="Übersicht mit Headset und Maus über der Taskleiste">
