@@ -1,0 +1,58 @@
+name: Fehler melden
+description: Etwas funktioniert nicht wie erwartet
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden! Je genauer die Angaben, desto schneller lässt sich der Fehler finden.
+        Bitte keine persönlichen Daten (Namen, Benutzerpfade o. Ä.) eintragen.
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: Was hast du erwartet, was ist stattdessen passiert? Fehlermeldungen bitte wörtlich einfügen.
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Wie lässt sich der Fehler nachstellen?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Version von Xviews ChargeBar
+      description: Steht in der App unter Info.
+      placeholder: z. B. 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Anderes
+    validations:
+      required: true
+  - type: input
+    id: geraete
+    attributes:
+      label: Geräte und iCUE-Version
+      placeholder: z. B. M75 Wireless, Virtuoso RGB Wireless SE, iCUE 5.30
+  - type: textarea
+    id: protokoll
+    attributes:
+      label: Fehlerbericht
+      description: Falls vorhanden, Inhalt von fehler.log oder absturz.txt (Ordner unter Info → Einstellungen und Verlauf → Öffnen).
+      render: text
+  - type: textarea
+    id: bilder
+    attributes:
+      label: Screenshots
+      description: Gern per Drag & Drop hier hineinziehen.
