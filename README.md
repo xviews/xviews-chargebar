@@ -34,37 +34,49 @@ iCUE zeigt den Akku nur als kleines Batteriesymbol im Infobereich. Wie viel Proz
 
 | 1️⃣ Starten | 2️⃣ Ablesen | 3️⃣ Draufklicken |
 |---|---|---|
-| EXE starten, auf Wunsch installieren. iCUE muss laufen, mehr braucht es nicht. | Die Geräte erscheinen neben der Uhr, zweizeilig wie Uhrzeit und Datum. Steckt das Kabel, erscheint sofort der Blitz. | Ein Klick auf die Leiste zeigt jedes Gerät mit Restzeit, Verlauf und Herstellerangaben. |
+| EXE starten, auf Wunsch installieren. iCUE muss laufen, mehr braucht es nicht. | Die Geräte erscheinen neben der Uhr, zweizeilig wie Uhrzeit und Datum. Steckt das Kabel, erscheint sofort der Blitz. | Ein Klick auf die Leiste zeigt jedes Gerät mit Restzeit und Verlauf. Rechtsklick für Akku-Gesundheit und Einstellungen. |
 
 ## Funktionen
 
 **Taskleiste**
 - 🔋 **Akkustand neben der Uhr:** Maus, Headset, Tastatur und Controller, zweizeilig oder nebeneinander, auf Wunsch auch auf weiteren Bildschirmen. Alternativ als einzelne Symbole im Infobereich.
-- 🎨 **Vier Symbol-Stile:** gefüllt, Ring, Windows-Umrisse oder Mini-Akku. Farbe weiß, nach Akkustand, als Füllstand oder in der Windows-Akzentfarbe.
+- 🎨 **Vier Symbol-Stile:** gefüllt, Ring, Windows-Umrisse oder Mini-Akku. Farbe weiß, nach Akkustand, als Füllstand, in der Windows-Akzentfarbe oder in einer eigenen Farbe.
 - ⚡ **Laden sofort erkennen:** Sobald das Ladekabel steckt, ersetzt ein Blitz das Prozentzeichen.
+- 🚨 **Kritischer Akku fällt auf:** Unter 10 % ist die Zahl fett und pulsiert sanft.
 
 **Übersicht**
 - ⏱️ **Restzeit aus eigener Messung:** ChargeBar misst, wie schnell der Akku sinkt, und zwar pro Stunde, in der das Gerät an ist. Pausen und ausgeschaltete Geräte verfälschen nichts.
-- 📅 **„Hält bis ca. Fr. 6.11., 14 Uhr“:** Der Zeitpunkt richtet sich danach, wie viele Stunden am Tag du das Gerät üblicherweise nutzt.
-- 📈 **Verlauf der letzten Stunden** als kleines Diagramm, dazu die Herstellerangaben zu Laufzeit und Ladedauer, solange noch nicht genug gemessen ist.
-- 🩺 **Akku-Gesundheit:** wie lange eine volle Ladung tatsächlich hält, verglichen mit den ersten Ladungen und der Herstellerangabe.
+- 📅 **„Hält bis ca. Do. 12.11., 15 Uhr“:** Der Zeitpunkt richtet sich danach, wie viele Stunden am Tag du das Gerät üblicherweise nutzt. Beim Laden steht dort, wann es voll ist.
+- 📈 **Verlauf seit dem letzten Laden,** klein unter dem Text oder groß mit gestrichelter Prognose bis leer bzw. bis voll.
+- 🪟 **Vier Stile:** Windows 11, Karten mit Rahmen, Schlicht oder Farbig. Auf Wunsch durchscheinend wie Glas, Stärke per Regler.
+- 🌈 **Farben nach Wunsch:** Ab wann der Akku gelb und rot gilt, ist einstellbar, die Farbe bei vollem Akku auch (oder ganz eigene).
+- ✏️ **Geräte umbenennen,** zum Beispiel „Maus Büro“ statt „M75 WIRELESS“. Per Rechtsklick lässt sich ein Gerät auch zuklappen oder ausblenden.
+- 🩺 **Akku-Gesundheit:** ein Balken pro Ladung zeigt, wie lange sie gehalten hat, dazu die Laufzeit pro Tag der letzten 14 Tage. Werden die Balken kürzer, lässt der Akku nach.
 
 **Meldungen**
 - 🔔 **Akku niedrig** (Grenze einstellbar), **Restzeit knapp**, **Ladeziel erreicht** (80, 90 oder 100 %) und auf Wunsch **Gerät getrennt**. Jede Meldung kommt nur einmal, auch nach einem Neustart.
+- 🌙 **Erinnerung am Abend:** wenn ein Gerät voraussichtlich morgen leer wird. Uhrzeit und Bedingung sind einstellbar.
+- 🎮 **Ruhe beim Spielen:** Läuft ein Spiel oder Video im Vollbild, kommen Meldungen erst danach, gesammelt in einer.
 
 **Außerdem**
 - 📦 **Installiert sich selbst, ohne Adminrechte:** Startmenü, Eintrag unter „Installierte Apps“, Autostart. Ohne Installation starten geht auch.
-- 🔄 **Updates mit einem Klick:** Die App meldet neue Versionen, prüft die Prüfsumme und installiert nach Rückfrage. Einstellungen und Verlauf bleiben erhalten.
-- 🌗 **Design wie Windows**, hell oder dunkel.
+- 🔄 **Updates mit einem Klick:** Die App meldet neue Versionen samt Neuerungen, prüft die Prüfsumme und installiert nach Rückfrage. Einstellungen und Verlauf bleiben erhalten.
+- 🌗 **Design wie Windows**, hell, dunkel oder Schwarz für OLED-Bildschirme.
+- 🌍 **Deutsch und Englisch,** automatisch nach der Sprache von Windows oder fest gewählt.
+
+<p align="center">
+  <img src="bilder/5-uebersicht-stile.png" width="760" alt="Die vier Stile der Übersicht"><br>
+  <sub>Die vier Stile der Übersicht: Windows 11, Karten, Schlicht und Farbig mit großem Verlauf</sub>
+</p>
 
 <table>
   <tr>
     <td width="50%"><img src="bilder/3-einstellungen.png" alt="Einstellungen"></td>
-    <td width="50%"><img src="bilder/4-info.png" alt="Info-Seite"></td>
+    <td width="50%"><img src="bilder/4-gesundheit.png" alt="Akku-Gesundheit"></td>
   </tr>
   <tr>
     <td align="center">Einstellungen</td>
-    <td align="center">Info</td>
+    <td align="center">Akku-Gesundheit</td>
   </tr>
 </table>
 
@@ -89,7 +101,7 @@ iCUE zeigt den Akku nur als kleines Batteriesymbol im Infobereich. Wie viel Proz
 - Meldet SmartScreen „Unbekannter Herausgeber“, auf **„Weitere Informationen“** und dann auf **„Trotzdem ausführen“** klicken. Die EXE ist nicht signiert, weil ein Zertifikat Geld kostet.
 - ChargeBar fragt, ob es sich installieren soll. Dann liegt es unter `%LOCALAPPDATA%\Programs\Xviews ChargeBar`, mit Startmenü-Eintrag und Autostart. Adminrechte sind nicht nötig.
 - Für den Zugriff auf iCUE braucht ChargeBar die Datei `iCUESDK.x64_2019.dll` von Corsair. Sie darf nicht mitgeliefert werden. ChargeBar sucht sie auf dem PC (zum Beispiel bei Stream Deck) und bietet sonst an, das offizielle Paket von Corsair herunterzuladen. Die Prüfsumme ist fest hinterlegt.
-- Einstellungen und Verlauf liegen in deinem Windows-Benutzerordner (`%LOCALAPPDATA%\XviewsChargeBar`). Die App zeigt den Ordner unter **Info**. Beim Deinstallieren kannst du wählen, ob er bleibt oder mit gelöscht wird.
+- Einstellungen und Verlauf liegen in deinem Windows-Benutzerordner (`%LOCALAPPDATA%\XviewsChargeBar`). Die App zeigt den Ordner unter **Einstellungen → Programm**. Beim Deinstallieren kannst du wählen, ob er bleibt oder mit gelöscht wird.
 
 </details>
 
