@@ -5,6 +5,10 @@
 <h1 align="center">Xviews ChargeBar</h1>
 
 <p align="center">
+  <b>Deutsch</b> · <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <b>Der Akkustand deiner Corsair-Geräte, direkt in der Taskleiste.</b><br>
   Maus, Headset, Tastatur und Controller auf einen Blick. Mit Restzeit, Verlauf und Meldungen.
 </p>
